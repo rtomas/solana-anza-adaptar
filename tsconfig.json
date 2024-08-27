@@ -1,0 +1,18 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "noEmitOnError": true,
+        "stripInternal": true,
+        "composite": true,
+        "outDir": "lib",
+        "noEmit": true,
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true
+    }
+}
